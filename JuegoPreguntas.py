@@ -9,22 +9,22 @@ if (pregunta1 == "panama" ):
 else:
     print("Incorrecto")
 
-pregunta2 = input("a?").lower()
-if (pregunta2 == "a" ):
+pregunta2 = input("En que continente queda Costa Rica?").lower()
+if (pregunta2 == "america" ):
     print("correcto")
     score +=  1
 else:
     print("Incorrecto")
 
-pregunta3 = input("b?").lower()
-if (pregunta3 == "b" ):
+pregunta3 = input("En que pais esta Barcelona?").lower()
+if (pregunta3 == "españa" ):
     print("correcto")
     score +=  1
 else:
     print("Incorrecto")
 
-pregunta4 = input("c?").lower()
-if (pregunta4 == "c" ):
+pregunta4 = input("En que continente se encuentra el Everest?").lower()
+if (pregunta4 == "asia" ):
     print("correcto")
     score +=  1
 else:
