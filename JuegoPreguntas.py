@@ -1,7 +1,9 @@
 #Juego de Preguntas
 
+#variable para dar puntuacion al usuario
 score = 0
 
+#preguntas y verificacion de respuestas
 pregunta1 = input("Cual es la capital de Panamá?").lower()
 if (pregunta1 == "panama" ):
     print("correcto")
@@ -30,4 +32,5 @@ if (pregunta4 == "asia" ):
 else:
     print("Incorrecto")
 
-print("Haz resuelto", score, "preguntas correctamente")
+#le da el resultado al usuario
+print("Haz obtenido", score, "puntos.")
