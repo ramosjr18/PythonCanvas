@@ -1,5 +1,3 @@
-import tkinter as tk
-
 pregunta1 = input("Introduzca el primer numero: ")
 pregunta2 = input("Introduzca el segundo numero: ")
 operacion = input("Elija la operacion: +, -, *, / ")
@@ -40,5 +38,3 @@ while True:
     else:
         print("Vuelve a Intentar ")
         operacion = ''
-        
-# @
